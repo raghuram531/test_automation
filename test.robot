@@ -3,7 +3,7 @@ Library  SeleniumLibrary
 *** Variables ***
 ${URL}		google.com
 ${BROWSER}	Chrome
-${EXECDIR}	/usr/local/bin
+${EXECDIR}	/usr/bin
 *** Keywords ***
 Set Environment Variable  webdriver.chrome.driver  ${EXECDIR}/chromedriver
 Open Browser To Login Page
