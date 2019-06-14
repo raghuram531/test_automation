@@ -2,7 +2,7 @@
 Library  SeleniumLibrary
 *** Variables ***
 ${URL}		google.com
-${BROWSER}	Chrome
+${BROWSER}	headlessChrome
 ${EXECDIR}	/usr/bin
 *** Keywords ***
 Set Environment Variable  webdriver.chrome.driver  ${EXECDIR}/chromedriver
