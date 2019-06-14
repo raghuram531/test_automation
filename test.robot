@@ -1,7 +1,7 @@
 *** Settings ***
 Library  SeleniumLibrary
 *** Variables ***
-${URL}		google.com
+${URL}		http://google.com
 ${BROWSER}	headlessChrome
 ${EXECDIR}	/usr/bin
 *** Keywords ***
